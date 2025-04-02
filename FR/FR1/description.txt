@@ -1,0 +1,4 @@
+This dataset contains behavioral events and intracranial electrophysiological recordings from a delayed free recall task. 
+The experiment consists of participants studying a list of words, presented visually one at a time, 
+completing simple arithmetic problems that function as a distractor, 
+and then freely recalling the words from the just-presented list in any order. 
