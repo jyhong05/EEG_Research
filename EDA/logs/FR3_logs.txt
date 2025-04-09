@@ -1,0 +1,76 @@
+There are 18 total participants for task FR3
+
+Info for subject sub-R1124J session 0
+------------------------------------------------------------
+monopolar channel types + counts: {'SEEG': 120}
+bipolar channel types + counts: {'SEEG': 109}
+number of unique channel groups: 11
+recording time: 0.8528 hrs
+sampling frequency: 1000.0 Hz
+
+Info for subject sub-R1124J session 1
+------------------------------------------------------------
+monopolar channel types + counts: {'SEEG': 120}
+bipolar channel types + counts: {'SEEG': 109}
+number of unique channel groups: 11
+recording time: 0.8182 hrs
+sampling frequency: 1000.0 Hz
+
+Session-aggregated info for 16 valid subjects for task FR3
+------------------------------------------------------------
+FR3 Subject sub-R1124J
+{'sessions': 2, 'electrodes (mono)': {'SEEG': 120}, 'record time (hrs)': 1.671, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1145J
+{'sessions': 1, 'electrodes (mono)': {'SEEG': 118}, 'record time (hrs)': 1.4897, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1154D
+{'sessions': 5, 'electrodes (mono)': {'ECOG': 64, 'SEEG': 12}, 'record time (hrs)': 4.4177, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1161E
+{'sessions': 2, 'electrodes (mono)': {'SEEG': 70}, 'record time (hrs)': 1.8152, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1163T
+{'sessions': 2, 'electrodes (mono)': {'SEEG': 126}, 'record time (hrs)': 1.6343, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1166D
+{'sessions': 2, 'electrodes (mono)': {'ECOG': 48, 'SEEG': 12}, 'record time (hrs)': 1.8063, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1170J
+{'sessions': 2, 'electrodes (mono)': {'SEEG': 108}, 'record time (hrs)': 1.549, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1195E
+{'sessions': 3, 'electrodes (mono)': {'ECOG': 44, 'SEEG': 83}, 'record time (hrs)': 2.508, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1200T
+{'sessions': 1, 'electrodes (mono)': {'SEEG': 124}, 'record time (hrs)': 0.8085, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1201P
+{'sessions': 1, 'electrodes (mono)': {'ECOG': 85, 'SEEG': 40}, 'record time (hrs)': 0.9306, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1202M
+{'sessions': 2, 'electrodes (mono)': {'ECOG': 64}, 'record time (hrs)': 1.9641, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1204T
+{'sessions': 1, 'electrodes (mono)': {'SEEG': 126}, 'record time (hrs)': 0.8339, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1217T
+{'sessions': 1, 'electrodes (mono)': {'SEEG': 126}, 'record time (hrs)': 0.8235, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1223E
+{'sessions': 2, 'electrodes (mono)': {'ECOG': 28, 'SEEG': 100}, 'record time (hrs)': 1.6789, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1293P
+{'sessions': 1, 'electrodes (mono)': {'SEEG': 112}, 'record time (hrs)': 0.3267, 'sample freq (Hz)': 1000.0}
+
+FR3 Subject sub-R1235E
+{'sessions': 1, 'electrodes (mono)': {'ECOG': 36, 'SEEG': 85}, 'record time (hrs)': 1.2788, 'sample freq (Hz)': 1000.0}
+
+
+Subject and session info aggregated over 16 valid subjects for task FR3
+------------------------------------------------------------
+Number of sessions: 29, avg 1.81 sessions per subject
+Number of electrodes: {'SEEG': 1362, 'ECOG': 369}, avg {'SEEG': 85.125, 'ECOG': 23.0625} per subject (unchanging for each subject)
+Recording time: 25.54 hrs, avg 1.60 hrs per subject, 0.88 hrs per session
+Invalid subject(s): ['sub-R1230J', 'sub-R1236J']
+
