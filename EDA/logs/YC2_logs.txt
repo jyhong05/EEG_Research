@@ -1,0 +1,93 @@
+There are 22 total participants for task YC2
+
+Info for subject sub-R1006P session 0
+------------------------------------------------------------
+monopolar channel types + counts: {'ECOG': 99, 'SEEG': 24}
+bipolar channel types + counts: {'ECOG': 115, 'SEEG': 18}
+aggregated electrode counts: {'ECOG': 99, 'SEEG': 24}
+number of unique channel groups: 14
+recording time: 0.95 hrs
+sampling frequency: 500.0 Hz
+
+Info for subject sub-R1006P session 1
+------------------------------------------------------------
+monopolar channel types + counts: {'ECOG': 99, 'SEEG': 24}
+bipolar channel types + counts: {'ECOG': 115, 'SEEG': 18}
+aggregated electrode counts: {'ECOG': 99, 'SEEG': 24}
+number of unique channel groups: 14
+recording time: 1.4685 hrs
+sampling frequency: 500.0 Hz
+
+Session-aggregated info for 21 valid subjects for task YC2
+------------------------------------------------------------
+YC2 Subject sub-R1006P
+{'sessions': 2, 'electrodes': {'ECOG': 99, 'SEEG': 24}, 'record time (hrs)': 2.4185, 'sample freq (Hz)': 500.0}
+
+YC2 Subject sub-R1013E
+{'sessions': 1, 'electrodes': {'ECOG': 18, 'SEEG': 108}, 'record time (hrs)': 0.8806, 'sample freq (Hz)': 999.0}
+
+YC2 Subject sub-R1015J
+{'sessions': 7, 'electrodes': {'SEEG': 180}, 'record time (hrs)': 8.2831, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1017J
+{'sessions': 1, 'electrodes': {'SEEG': 156}, 'record time (hrs)': 0.5983, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1019J
+{'sessions': 7, 'electrodes': {'ECOG': 120, 'SEEG': 24}, 'record time (hrs)': 3.9611, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1020J
+{'sessions': 2, 'electrodes': {'ECOG': 84, 'SEEG': 16}, 'record time (hrs)': 1.3992, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1023J
+{'sessions': 2, 'electrodes': {'SEEG': 138}, 'record time (hrs)': 1.6175, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1024E
+{'sessions': 3, 'electrodes': {'ECOG': 102, 'SEEG': 24}, 'record time (hrs)': 3.2879, 'sample freq (Hz)': [499.7071, 500.0]}
+
+YC2 Subject sub-R1026D
+{'sessions': 2, 'electrodes': {'ECOG': 52, 'SEEG': 12}, 'record time (hrs)': 1.4914, 'sample freq (Hz)': 1600.0}
+
+YC2 Subject sub-R1027J
+{'sessions': 4, 'electrodes': {'SEEG': 156}, 'record time (hrs)': 2.7133, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1030J
+{'sessions': 4, 'electrodes': {'SEEG': 118}, 'record time (hrs)': 2.5028, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1032D
+{'sessions': 2, 'electrodes': {'ECOG': 32, 'SEEG': 72}, 'record time (hrs)': 1.1667, 'sample freq (Hz)': 1600.0}
+
+YC2 Subject sub-R1033D
+{'sessions': 2, 'electrodes': {'ECOG': 40, 'SEEG': 36}, 'record time (hrs)': 1.3167, 'sample freq (Hz)': 1600.0}
+
+YC2 Subject sub-R1037D
+{'sessions': 5, 'electrodes': {'ECOG': 32, 'SEEG': 24}, 'record time (hrs)': 4.85, 'sample freq (Hz)': 1600.0}
+
+YC2 Subject sub-R1042M
+{'sessions': 1, 'electrodes': {'ECOG': 72, 'SEEG': 8}, 'record time (hrs)': 0.7895, 'sample freq (Hz)': 500.0}
+
+YC2 Subject sub-R1050M
+{'sessions': 1, 'electrodes': {'ECOG': 64}, 'record time (hrs)': 0.4001, 'sample freq (Hz)': 500.0}
+
+YC2 Subject sub-R1056M
+{'sessions': 1, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 1.3161, 'sample freq (Hz)': 500.0}
+
+YC2 Subject sub-R1060M
+{'sessions': 1, 'electrodes': {'ECOG': 64, 'SEEG': 4}, 'record time (hrs)': 0.5856, 'sample freq (Hz)': 500.0}
+
+YC2 Subject sub-R1061T
+{'sessions': 1, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 0.7359, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1065J
+{'sessions': 1, 'electrodes': {'SEEG': 188}, 'record time (hrs)': 1.2278, 'sample freq (Hz)': 1000.0}
+
+YC2 Subject sub-R1069M
+{'sessions': 1, 'electrodes': {'ECOG': 88, 'SEEG': 4}, 'record time (hrs)': 0.6229, 'sample freq (Hz)': 500.0}
+
+
+Subject and session info aggregated over 21 valid subjects for task YC2
+------------------------------------------------------------
+Number of sessions: 51, avg 2.43 sessions per subject
+Number of electrodes: {'ECOG': 867, 'SEEG': 1532}, avg {'ECOG': 41.2857, 'SEEG': 72.9524} per subject (unchanging for each subject)
+Recording time: 42.16 hrs, avg 2.01 hrs per subject, 0.83 hrs per session
+Invalid subject(s): ['sub-R1074M']
+

@@ -3,6 +3,47 @@ import numpy as np
 import json
 import os
 
+def get_electrodes(mono_df, bi_df):
+    '''
+    Return a dictionary mapping electrode types to their unique electrode names,
+    combining data from monopolar and bipolar channel DataFrames.
+
+    Args:
+        mono_df (pd.DataFrame): DataFrame containing monopolar channels.
+                                Expected to have columns 'type' and 'name'.
+        bi_df (pd.DataFrame): DataFrame containing bipolar channels.
+                              Expected to have columns 'type' and 'name',
+                              where the 'name' column contains bipolar pair strings (e.g., "A1-A2").
+
+    Returns:
+        electrodes (dict): Dictionary where each key is an electrode type (from either DataFrame)
+                           and the value is a list of unique electrode names for that type.
+    '''
+    mono_electrodes = {}
+    bi_electrodes = {}
+
+    if mono_df is not None and not mono_df.empty:
+        mono_electrodes = {
+            t: mono_df[mono_df['type'] == t]['name'].tolist()
+            for t in mono_df['type'].unique()
+        }
+
+    if bi_df is not None and not bi_df.empty:
+        for t in bi_df['type'].unique():
+            pairs = bi_df[bi_df['type'] == t]['name'].tolist()
+            electrodes = []
+            for pair in pairs:
+                electrodes += pair.split('-')
+            bi_electrodes[t] = list(set(electrodes))
+    
+    # Combine the electrode lists for all types (union of keys) using .get() to default to empty list if key is missing.
+    all_electrodes = {
+        t: list(set(mono_electrodes.get(t, []) + bi_electrodes.get(t, [])))
+        for t in set(mono_electrodes.keys()) | set(bi_electrodes.keys())
+    }
+    
+    return all_electrodes
+
 def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
     '''
     return and print (mono and bi) channels + channel groups, recording time, and sampling frequency info for a given subject and session
@@ -18,14 +59,20 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
     returns:
         mono_channels (dict): dictionary of monopolar channel types and counts
         bi_channels (dict): dictionary of bipolar channel types and counts
+        electrodes (dict): dictionary of electrode types and their names
         groups (list): list of unique channel groups
-        record_dur (float): recording duration in seconds
+        record_dur (float): recording duration in SECONDS
         freq (int): sampling frequency in Hz
     '''
     # get file paths
     ieeg_prefix = f'{path}/{sub}/ses-{ses}/ieeg'
     if not os.path.exists(ieeg_prefix): # check if ieeg folder exists
-        return None, None, None, None, None
+        if print_info:
+            print(f'No ieeg folder for {tasknum} subject {sub} session {ses}')
+        if log_path != None:
+            with open(log_path, 'a') as f:
+                f.write(f'No ieeg folder for {tasknum} subject {sub} session {ses}\n\n')
+        return None, None, None, None, None, None
     prefix = ieeg_prefix + f'/{sub}_ses-{ses}_task-{tasknum}'
 
     # if they exist, parse and load monopolar channels
@@ -37,6 +84,7 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
         mono_dict = json.load(open(mono_json))
     except FileNotFoundError:
         mono = False
+        mono_df = pd.DataFrame([]) # empty df
 
     if mono:
         mono_nonzero_counts = [key for key in mono_dict if 'ChannelCount' in key and mono_dict[key] > 0]
@@ -59,6 +107,7 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
         bi_dict = json.load(open(bi_json))
     except FileNotFoundError:
         bi = False
+        bi_df = pd.DataFrame([]) # empty df
 
     if bi:
         bi_nonzero_counts = [key for key in bi_dict if 'ChannelCount' in key and bi_dict[key] > 0]
@@ -72,7 +121,20 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
     
     # if no channels exist, return Nones
     if not mono and not bi:
-        return None, None, None, None, None
+        if print_info:
+            print(f'No channel data for {tasknum} subject {sub} session {ses}')
+        if log_path != None:
+            with open(log_path, 'a') as f:
+                f.write(f'No channel data for {tasknum} subject {sub} session {ses}\n\n')
+        return None, None, None, None, None, None
+
+    # get electrodes
+    electrodes = get_electrodes(mono_df, bi_df)
+    agg_counts = {t: len(electrodes[t]) for t in electrodes.keys()}
+    if len(electrodes) == 0:
+        print('something is very very wrong - no electrodes after checking mono and bi are nonempty')
+        print(sub, ses)
+        return None
 
     # information for printing and logging
     info = [
@@ -80,6 +142,7 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
         '-'*60,
         f'monopolar channel types + counts: {mono_channels}',
         f'bipolar channel types + counts: {bi_channels}' if bi else 'bipolar channels: MISSING',
+        f'aggregated electrode counts: {agg_counts}',
         f'number of unique channel groups: {len(groups)}',
         f'recording time: {round(record_dur/3600, 4)} hrs',
         f'sampling frequency: {freq} Hz'
@@ -95,7 +158,7 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
                 f.write(line + '\n')
             f.write('\n')
 
-    return mono_channels, bi_channels, groups, record_dur, freq
+    return mono_channels, bi_channels, electrodes, groups, record_dur, freq
 
 def get_ses_agg_info(path, tasknum, subjects, max_ses, print_info=True, log_path=None):
     '''
@@ -116,7 +179,7 @@ def get_ses_agg_info(path, tasknum, subjects, max_ses, print_info=True, log_path
     for sub in subjects:
         sub_dict = {
             'sessions': 0,
-            'electrodes (mono)': {},
+            'electrodes': {},
             'record time (hrs)': 0,
             'sample freq (Hz)': []
         }
@@ -127,17 +190,17 @@ def get_ses_agg_info(path, tasknum, subjects, max_ses, print_info=True, log_path
             if not os.path.exists(folder):
                 continue
                 
-            mono, bi, groups, dur, freq = get_sub_info(path, tasknum, sub, ses, print_info=False)
-            if mono is None: # indicates no ieeg data or no channels
+            mono, bi, electrodes, groups, dur, freq = get_sub_info(path, tasknum, sub, ses, print_info=False)
+            if not electrodes and not mono and not bi:
                 continue
+            electrodes_counts = {t: len(electrodes[t]) for t in electrodes.keys()}
 
-            # assert len(mono) == len(sub_dict['electrodes (mono)']) or len(sub_dict['electrodes (mono)']) == 0
             # inconsistent counts of electrodes in same subject -> faulty electrodes -> choose largest counts
-            sub_dict['electrodes (mono)'] = max(sub_dict['electrodes (mono)'], mono, key=lambda x: sum(list(x.values())))
+            sub_dict['electrodes'] = max(sub_dict['electrodes'], electrodes_counts, key=lambda x: sum(list(x.values())))
 
             sub_dict['record time (hrs)'] += dur/3600
             sub_dict['sample freq (Hz)'].append(freq)
-
+            
             ses_count += 1
         
         if ses_count == 0:
@@ -195,8 +258,8 @@ def get_sub_ses_agg_info(ses_agg_info, tasknum, og_all_subs, print_info=True, lo
         sessions += ses_agg_info[sub]['sessions']
         record_dur += ses_agg_info[sub]['record time (hrs)']
 
-        for electrode in ses_agg_info[sub]['electrodes (mono)']:
-            count = ses_agg_info[sub]['electrodes (mono)'][electrode]
+        for electrode in ses_agg_info[sub]['electrodes']:
+            count = ses_agg_info[sub]['electrodes'][electrode]
             if electrode not in electrodes:
                 electrodes[electrode] = count
             else:

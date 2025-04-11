@@ -1,0 +1,44 @@
+There are 9 total participants for task catFR3
+
+Info for subject sub-R1226D session 0
+------------------------------------------------------------
+monopolar channel types + counts: {'ECOG': 74, 'SEEG': 16}
+bipolar channel types + counts: {'ECOG': 108, 'SEEG': 14}
+aggregated electrode counts: {'ECOG': 74, 'SEEG': 16}
+number of unique channel groups: 7
+recording time: 0.8344 hrs
+sampling frequency: 1000.0 Hz
+
+No ieeg folder for catFR3 subject sub-R1226D session 1
+
+Session-aggregated info for 7 valid subjects for task catFR3
+------------------------------------------------------------
+catFR3 Subject sub-R1226D
+{'sessions': 1, 'electrodes': {'ECOG': 74, 'SEEG': 16}, 'record time (hrs)': 0.8344, 'sample freq (Hz)': 1000.0}
+
+catFR3 Subject sub-R1243T
+{'sessions': 2, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.5985, 'sample freq (Hz)': 1000.0}
+
+catFR3 Subject sub-R1247P
+{'sessions': 1, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 0.8267, 'sample freq (Hz)': 1000.0}
+
+catFR3 Subject sub-R1260D
+{'sessions': 2, 'electrodes': {'ECOG': 96, 'SEEG': 32}, 'record time (hrs)': 1.2561, 'sample freq (Hz)': 1000.0}
+
+catFR3 Subject sub-R1264P
+{'sessions': 2, 'electrodes': {'SEEG': 78}, 'record time (hrs)': 1.619, 'sample freq (Hz)': 1000.0}
+
+catFR3 Subject sub-R1274T
+{'sessions': 1, 'electrodes': {'SEEG': 64}, 'record time (hrs)': 0.8, 'sample freq (Hz)': 1000.0}
+
+catFR3 Subject sub-R1286J
+{'sessions': 2, 'electrodes': {'SEEG': 124}, 'record time (hrs)': 1.5683, 'sample freq (Hz)': 1000.0}
+
+
+Subject and session info aggregated over 7 valid subjects for task catFR3
+------------------------------------------------------------
+Number of sessions: 11, avg 1.57 sessions per subject
+Number of electrodes: {'ECOG': 170, 'SEEG': 566}, avg {'ECOG': 24.2857, 'SEEG': 80.8571} per subject (unchanging for each subject)
+Recording time: 8.50 hrs, avg 1.21 hrs per subject, 0.77 hrs per session
+Invalid subject(s): ['sub-R1236J', 'sub-R1277J']
+

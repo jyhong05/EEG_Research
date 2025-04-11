@@ -1,0 +1,80 @@
+There are 19 total participants for task catFR2
+
+Info for subject sub-R1016M session 0
+------------------------------------------------------------
+monopolar channel types + counts: {'ECOG': 128}
+bipolar channel types + counts: {'ECOG': 177}
+aggregated electrode counts: {'ECOG': 128}
+number of unique channel groups: 11
+recording time: 0.9717 hrs
+sampling frequency: 500.0 Hz
+
+No ieeg folder for catFR2 subject sub-R1016M session 1
+
+Session-aggregated info for 19 valid subjects for task catFR2
+------------------------------------------------------------
+catFR2 Subject sub-R1016M
+{'sessions': 1, 'electrodes': {'ECOG': 128}, 'record time (hrs)': 0.9717, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1024E
+{'sessions': 2, 'electrodes': {'ECOG': 96, 'SEEG': 30}, 'record time (hrs)': 2.4862, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1026D
+{'sessions': 3, 'electrodes': {'ECOG': 52, 'SEEG': 12}, 'record time (hrs)': 2.5461, 'sample freq (Hz)': 1600.0}
+
+catFR2 Subject sub-R1028M
+{'sessions': 1, 'electrodes': {'ECOG': 56, 'SEEG': 8}, 'record time (hrs)': 0.9706, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1029W
+{'sessions': 2, 'electrodes': {'ECOG': 88, 'SEEG': 16}, 'record time (hrs)': 2.3269, 'sample freq (Hz)': 999.0}
+
+catFR2 Subject sub-R1031M
+{'sessions': 1, 'electrodes': {'SEEG': 16}, 'record time (hrs)': 0.6323, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1036M
+{'sessions': 3, 'electrodes': {'ECOG': 80, 'SEEG': 8}, 'record time (hrs)': 2.1797, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1039M
+{'sessions': 1, 'electrodes': {'ECOG': 100, 'SEEG': 16}, 'record time (hrs)': 0.8362, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1041M
+{'sessions': 1, 'electrodes': {'ECOG': 102, 'SEEG': 8}, 'record time (hrs)': 0.6396, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1042M
+{'sessions': 1, 'electrodes': {'ECOG': 72, 'SEEG': 8}, 'record time (hrs)': 1.2195, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1050M
+{'sessions': 1, 'electrodes': {'ECOG': 64}, 'record time (hrs)': 0.9951, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1060M
+{'sessions': 1, 'electrodes': {'ECOG': 64, 'SEEG': 4}, 'record time (hrs)': 0.5712, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1067P
+{'sessions': 1, 'electrodes': {'ECOG': 100, 'SEEG': 16}, 'record time (hrs)': 1.0857, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1069M
+{'sessions': 1, 'electrodes': {'ECOG': 88, 'SEEG': 4}, 'record time (hrs)': 0.8334, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1074M
+{'sessions': 1, 'electrodes': {'SEEG': 96}, 'record time (hrs)': 0.6, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1092J
+{'sessions': 1, 'electrodes': {'SEEG': 130}, 'record time (hrs)': 1.1167, 'sample freq (Hz)': 1000.0}
+
+catFR2 Subject sub-R1157C
+{'sessions': 1, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 0.8707, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1180C
+{'sessions': 1, 'electrodes': {'SEEG': 78}, 'record time (hrs)': 0.9361, 'sample freq (Hz)': 500.0}
+
+catFR2 Subject sub-R1192C
+{'sessions': 2, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.8207, 'sample freq (Hz)': 500.0}
+
+
+Subject and session info aggregated over 19 valid subjects for task catFR2
+------------------------------------------------------------
+Number of sessions: 26, avg 1.37 sessions per subject
+Number of electrodes: {'ECOG': 1090, 'SEEG': 702}, avg {'ECOG': 57.3684, 'SEEG': 36.9474} per subject (unchanging for each subject)
+Recording time: 23.64 hrs, avg 1.24 hrs per subject, 0.91 hrs per session
+Invalid subject(s): []
+

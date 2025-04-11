@@ -1,0 +1,195 @@
+There are 58 total participants for task YC1
+
+Info for subject sub-R1001P session 0
+------------------------------------------------------------
+monopolar channel types + counts: {'ECOG': 66, 'SEEG': 22}
+bipolar channel types + counts: {'ECOG': 54, 'SEEG': 18}
+aggregated electrode counts: {'ECOG': 66, 'SEEG': 22}
+number of unique channel groups: 16
+recording time: 0.8051 hrs
+sampling frequency: 500.0 Hz
+
+Info for subject sub-R1001P session 1
+------------------------------------------------------------
+monopolar channel types + counts: {'ECOG': 66, 'SEEG': 22}
+bipolar channel types + counts: {'ECOG': 54, 'SEEG': 18}
+aggregated electrode counts: {'ECOG': 66, 'SEEG': 22}
+number of unique channel groups: 16
+recording time: 0.6245 hrs
+sampling frequency: 500.0 Hz
+
+Session-aggregated info for 55 valid subjects for task YC1
+------------------------------------------------------------
+YC1 Subject sub-R1001P
+{'sessions': 3, 'electrodes': {'ECOG': 66, 'SEEG': 22}, 'record time (hrs)': 2.2196, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1006P
+{'sessions': 3, 'electrodes': {'ECOG': 99, 'SEEG': 24}, 'record time (hrs)': 2.1624, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1008J
+{'sessions': 1, 'electrodes': {'ECOG': 80, 'SEEG': 40}, 'record time (hrs)': 0.7967, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1009W
+{'sessions': 1, 'electrodes': {'ECOG': 88}, 'record time (hrs)': 0.8122, 'sample freq (Hz)': 1999.0}
+
+YC1 Subject sub-R1010J
+{'sessions': 2, 'electrodes': {'SEEG': 186}, 'record time (hrs)': 1.4103, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1013E
+{'sessions': 2, 'electrodes': {'ECOG': 18, 'SEEG': 108}, 'record time (hrs)': 1.8903, 'sample freq (Hz)': 999.0}
+
+YC1 Subject sub-R1014D
+{'sessions': 2, 'electrodes': {'ECOG': 68, 'SEEG': 24}, 'record time (hrs)': 1.4667, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1015J
+{'sessions': 2, 'electrodes': {'SEEG': 180}, 'record time (hrs)': 2.7097, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1018P
+{'sessions': 1, 'electrodes': {'ECOG': 100}, 'record time (hrs)': 0.9995, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1019J
+{'sessions': 3, 'electrodes': {'ECOG': 120, 'SEEG': 24}, 'record time (hrs)': 2.4769, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1021D
+{'sessions': 2, 'electrodes': {'ECOG': 48, 'SEEG': 24}, 'record time (hrs)': 1.5319, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1023J
+{'sessions': 2, 'electrodes': {'SEEG': 138}, 'record time (hrs)': 2.0381, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1024E
+{'sessions': 2, 'electrodes': {'ECOG': 102, 'SEEG': 24}, 'record time (hrs)': 2.1334, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1025P
+{'sessions': 1, 'electrodes': {'ECOG': 104, 'SEEG': 21}, 'record time (hrs)': 0.545, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1026D
+{'sessions': 1, 'electrodes': {'ECOG': 52, 'SEEG': 12}, 'record time (hrs)': 0.75, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1030J
+{'sessions': 1, 'electrodes': {'SEEG': 118}, 'record time (hrs)': 0.7361, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1032D
+{'sessions': 1, 'electrodes': {'ECOG': 32, 'SEEG': 72}, 'record time (hrs)': 0.7667, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1033D
+{'sessions': 1, 'electrodes': {'ECOG': 40, 'SEEG': 36}, 'record time (hrs)': 0.7333, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1034D
+{'sessions': 2, 'electrodes': {'ECOG': 100, 'SEEG': 12}, 'record time (hrs)': 1.45, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1037D
+{'sessions': 3, 'electrodes': {'ECOG': 32, 'SEEG': 24}, 'record time (hrs)': 2.6689, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1041M
+{'sessions': 3, 'electrodes': {'ECOG': 102, 'SEEG': 8}, 'record time (hrs)': 1.623, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1042M
+{'sessions': 1, 'electrodes': {'ECOG': 72, 'SEEG': 8}, 'record time (hrs)': 2.3484, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1044J
+{'sessions': 1, 'electrodes': {'SEEG': 186}, 'record time (hrs)': 0.4917, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1045E
+{'sessions': 2, 'electrodes': {'ECOG': 47, 'SEEG': 80}, 'record time (hrs)': 1.6795, 'sample freq (Hz)': 999.0}
+
+YC1 Subject sub-R1047D
+{'sessions': 1, 'electrodes': {'ECOG': 88, 'SEEG': 36}, 'record time (hrs)': 0.3833, 'sample freq (Hz)': 1600.0}
+
+YC1 Subject sub-R1048E
+{'sessions': 1, 'electrodes': {'SEEG': 60}, 'record time (hrs)': 0.8195, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1049J
+{'sessions': 2, 'electrodes': {'SEEG': 140}, 'record time (hrs)': 2.1258, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1050M
+{'sessions': 1, 'electrodes': {'ECOG': 64}, 'record time (hrs)': 0.5273, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1051J
+{'sessions': 2, 'electrodes': {'ECOG': 48, 'SEEG': 8}, 'record time (hrs)': 1.2728, 'sample freq (Hz)': 2000.0}
+
+YC1 Subject sub-R1052E
+{'sessions': 3, 'electrodes': {'ECOG': 34, 'SEEG': 94}, 'record time (hrs)': 2.2585, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1054J
+{'sessions': 1, 'electrodes': {'SEEG': 165}, 'record time (hrs)': 0.7756, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1056M
+{'sessions': 1, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 0.6556, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1059J
+{'sessions': 1, 'electrodes': {'ECOG': 136, 'SEEG': 41}, 'record time (hrs)': 0.6314, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1060M
+{'sessions': 2, 'electrodes': {'ECOG': 64, 'SEEG': 4}, 'record time (hrs)': 1.7612, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1061T
+{'sessions': 1, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 0.7231, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1062J
+{'sessions': 2, 'electrodes': {'SEEG': 158}, 'record time (hrs)': 1.7883, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1063C
+{'sessions': 2, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.3218, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1064E
+{'sessions': 3, 'electrodes': {'ECOG': 12, 'SEEG': 115}, 'record time (hrs)': 2.2384, 'sample freq (Hz)': 999.0}
+
+YC1 Subject sub-R1065J
+{'sessions': 6, 'electrodes': {'SEEG': 188}, 'record time (hrs)': 4.9, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1066P
+{'sessions': 4, 'electrodes': {'ECOG': 40, 'SEEG': 20}, 'record time (hrs)': 2.7336, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1067P
+{'sessions': 1, 'electrodes': {'ECOG': 100, 'SEEG': 16}, 'record time (hrs)': 0.9701, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1068J
+{'sessions': 2, 'electrodes': {'ECOG': 62, 'SEEG': 24}, 'record time (hrs)': 1.4828, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1069M
+{'sessions': 1, 'electrodes': {'ECOG': 88, 'SEEG': 4}, 'record time (hrs)': 0.9784, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1073J
+{'sessions': 1, 'electrodes': {'ECOG': 64, 'SEEG': 32}, 'record time (hrs)': 0.8481, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1075J
+{'sessions': 2, 'electrodes': {'ECOG': 120}, 'record time (hrs)': 1.7539, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1077T
+{'sessions': 2, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 2.2444, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1083J
+{'sessions': 1, 'electrodes': {'ECOG': 28, 'SEEG': 58}, 'record time (hrs)': 0.8747, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1086M
+{'sessions': 1, 'electrodes': {'ECOG': 76, 'SEEG': 12}, 'record time (hrs)': 1.4812, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1089P
+{'sessions': 1, 'electrodes': {'ECOG': 102, 'SEEG': 16}, 'record time (hrs)': 0.6717, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1096E
+{'sessions': 1, 'electrodes': {'SEEG': 100}, 'record time (hrs)': 0.201, 'sample freq (Hz)': 999.0}
+
+YC1 Subject sub-R1101T
+{'sessions': 1, 'electrodes': {'SEEG': 124}, 'record time (hrs)': 0.6536, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1112M
+{'sessions': 1, 'electrodes': {'ECOG': 48, 'SEEG': 20}, 'record time (hrs)': 0.8256, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1114C
+{'sessions': 1, 'electrodes': {'SEEG': 122}, 'record time (hrs)': 0.7412, 'sample freq (Hz)': 500.0}
+
+YC1 Subject sub-R1124J
+{'sessions': 1, 'electrodes': {'SEEG': 178}, 'record time (hrs)': 1.0811, 'sample freq (Hz)': 1000.0}
+
+YC1 Subject sub-R1177M
+{'sessions': 1, 'electrodes': {'ECOG': 80, 'SEEG': 16}, 'record time (hrs)': 0.5518, 'sample freq (Hz)': 500.0}
+
+
+Subject and session info aggregated over 55 valid subjects for task YC1
+------------------------------------------------------------
+Number of sessions: 94, avg 1.71 sessions per subject
+Number of electrodes: {'ECOG': 2624, 'SEEG': 3608}, avg {'ECOG': 47.7091, 'SEEG': 65.6} per subject (unchanging for each subject)
+Recording time: 76.72 hrs, avg 1.39 hrs per subject, 0.82 hrs per session
+Invalid subject(s): ['sub-R1079E', 'sub-R1106M', 'sub-R1074M']
+
