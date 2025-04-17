@@ -44,13 +44,13 @@ def get_electrodes(mono_df, bi_df):
     
     return all_electrodes
 
-def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
+def get_sub_info(ds_num, tasknum, sub, ses, print_info=True, log_path=None):
     '''
     return and print (mono and bi) channels + channel groups, recording time, and sampling frequency info for a given subject and session
     subject sessions without ieeg data will be ignored
 
     args:
-        path (str): path to the task folder (not the subject folder)
+        ds_num (str): dataset id
         tasknum (str): task + number
         sub (str): subject ID
         ses (int): session number
@@ -65,7 +65,7 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
         freq (int): sampling frequency in Hz
     '''
     # get file paths
-    ieeg_prefix = f'{path}/{sub}/ses-{ses}/ieeg'
+    ieeg_prefix = f'{ds_num}/{sub}/ses-{ses}/ieeg'
     if not os.path.exists(ieeg_prefix): # check if ieeg folder exists
         if print_info:
             print(f'No ieeg folder for {tasknum} subject {sub} session {ses}')
@@ -160,13 +160,13 @@ def get_sub_info(path, tasknum, sub, ses, print_info=True, log_path=None):
 
     return mono_channels, bi_channels, electrodes, groups, record_dur, freq
 
-def get_ses_agg_info(path, tasknum, subjects, max_ses, print_info=True, log_path=None):
+def get_ses_agg_info(ds_num, tasknum, subjects, max_ses, print_info=True, log_path=None):
     '''
     return and print session-aggregated data for each given subject
     subject sessions without ieeg data will be ignored
 
     args:
-        path (str): path to the task folder (not the subject folder)
+        ds_num (str): dataset id
         tasknum (str): task + number
         subjects (list): list of subject IDs to parse
         print_info (bool): whether to print the info or not
@@ -186,11 +186,11 @@ def get_ses_agg_info(path, tasknum, subjects, max_ses, print_info=True, log_path
 
         ses_count = 0
         for ses in range(max_ses):
-            folder = f'{path}/{sub}/ses-{ses}/'
+            folder = f'{ds_num}/{sub}/ses-{ses}/'
             if not os.path.exists(folder):
                 continue
                 
-            mono, bi, electrodes, groups, dur, freq = get_sub_info(path, tasknum, sub, ses, print_info=False)
+            mono, bi, electrodes, groups, dur, freq = get_sub_info(ds_num, tasknum, sub, ses, print_info=False)
             if not electrodes and not mono and not bi:
                 continue
             electrodes_counts = {t: len(electrodes[t]) for t in electrodes.keys()}
@@ -253,10 +253,21 @@ def get_sub_ses_agg_info(ses_agg_info, tasknum, og_all_subs, print_info=True, lo
     sessions = 0
     electrodes = {}
     record_dur = 0
+    freqs = {}
 
     for sub in ses_agg_info:
         sessions += ses_agg_info[sub]['sessions']
         record_dur += ses_agg_info[sub]['record time (hrs)']
+
+        if type(ses_agg_info[sub]['sample freq (Hz)']) == list:
+            freq_info = [freq for freq in ses_agg_info[sub]['sample freq (Hz)']]
+        else:
+            freq_info = [ses_agg_info[sub]['sample freq (Hz)']]
+        for freq in freq_info:
+            if freq not in freqs:
+                freqs[freq] = 1
+            else:
+                freqs[freq] += 1
 
         for electrode in ses_agg_info[sub]['electrodes']:
             count = ses_agg_info[sub]['electrodes'][electrode]
@@ -273,6 +284,7 @@ def get_sub_ses_agg_info(ses_agg_info, tasknum, og_all_subs, print_info=True, lo
         f'Number of sessions: {sessions}, avg {sessions/subs_count:.2f} sessions per subject',
         f'Number of electrodes: {electrodes}, avg {elec_sub_avg} per subject (unchanging for each subject)',
         f'Recording time: {record_dur:.2f} hrs, avg {record_dur/subs_count:.2f} hrs per subject, {record_dur/sessions:.2f} hrs per session',
+        f'Sampling frequencies (Hz): {freqs}',
         f'Invalid subject(s): {list(set(og_all_subs) - set(ses_agg_info.keys()))}',
     ]
 

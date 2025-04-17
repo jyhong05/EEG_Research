@@ -4,7 +4,7 @@ Info for subject sub-R1003P session 0
 ------------------------------------------------------------
 monopolar channel types + counts: {'ECOG': 92, 'SEEG': 8}
 bipolar channel types + counts: {'ECOG': 108, 'SEEG': 6}
-aggregated electrode counts: {'ECOG': 92, 'SEEG': 8}
+aggregated electrode counts: {'SEEG': 8, 'ECOG': 92}
 number of unique channel groups: 9
 recording time: 0.684 hrs
 sampling frequency: 500.0 Hz
@@ -13,7 +13,7 @@ Info for subject sub-R1003P session 1
 ------------------------------------------------------------
 monopolar channel types + counts: {'ECOG': 92, 'SEEG': 8}
 bipolar channel types + counts: {'ECOG': 108, 'SEEG': 6}
-aggregated electrode counts: {'ECOG': 92, 'SEEG': 8}
+aggregated electrode counts: {'SEEG': 8, 'ECOG': 92}
 number of unique channel groups: 9
 recording time: 1.1768 hrs
 sampling frequency: 500.0 Hz
@@ -21,25 +21,25 @@ sampling frequency: 500.0 Hz
 Session-aggregated info for 20 valid subjects for task PAL2
 ------------------------------------------------------------
 PAL2 Subject sub-R1003P
-{'sessions': 2, 'electrodes': {'ECOG': 92, 'SEEG': 8}, 'record time (hrs)': 1.8608, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 8, 'ECOG': 92}, 'record time (hrs)': 1.8608, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1016M
 {'sessions': 3, 'electrodes': {'ECOG': 128}, 'record time (hrs)': 6.5264, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1028M
-{'sessions': 1, 'electrodes': {'ECOG': 56, 'SEEG': 8}, 'record time (hrs)': 0.8962, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 8, 'ECOG': 56}, 'record time (hrs)': 0.8962, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1031M
 {'sessions': 2, 'electrodes': {'SEEG': 16}, 'record time (hrs)': 1.5924, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1036M
-{'sessions': 1, 'electrodes': {'ECOG': 80, 'SEEG': 8}, 'record time (hrs)': 0.9401, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 8, 'ECOG': 80}, 'record time (hrs)': 0.9401, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1050M
 {'sessions': 1, 'electrodes': {'ECOG': 64}, 'record time (hrs)': 0.5417, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1060M
-{'sessions': 2, 'electrodes': {'ECOG': 64, 'SEEG': 4}, 'record time (hrs)': 1.5618, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 4, 'ECOG': 64}, 'record time (hrs)': 1.5618, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1074M
 {'sessions': 1, 'electrodes': {'SEEG': 96}, 'record time (hrs)': 0.879, 'sample freq (Hz)': 500.0}
@@ -48,34 +48,34 @@ PAL2 Subject sub-R1082N
 {'sessions': 1, 'electrodes': {'ECOG': 112}, 'record time (hrs)': 1.0375, 'sample freq (Hz)': 1000.0}
 
 PAL2 Subject sub-R1091N
-{'sessions': 1, 'electrodes': {'ECOG': 90, 'SEEG': 14}, 'record time (hrs)': 0.8856, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 14, 'ECOG': 90}, 'record time (hrs)': 0.8856, 'sample freq (Hz)': 1000.0}
 
 PAL2 Subject sub-R1095N
-{'sessions': 1, 'electrodes': {'ECOG': 92, 'SEEG': 14}, 'record time (hrs)': 0.9503, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 14, 'ECOG': 92}, 'record time (hrs)': 0.9503, 'sample freq (Hz)': 1000.0}
 
 PAL2 Subject sub-R1111M
-{'sessions': 2, 'electrodes': {'ECOG': 88, 'SEEG': 12}, 'record time (hrs)': 1.1612, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 12, 'ECOG': 88}, 'record time (hrs)': 1.1612, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1112M
-{'sessions': 1, 'electrodes': {'ECOG': 48, 'SEEG': 20}, 'record time (hrs)': 1.2689, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 20, 'ECOG': 48}, 'record time (hrs)': 1.2689, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1118N
-{'sessions': 1, 'electrodes': {'ECOG': 106, 'SEEG': 16}, 'record time (hrs)': 1.1906, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 106}, 'record time (hrs)': 1.1906, 'sample freq (Hz)': 1000.0}
 
 PAL2 Subject sub-R1121M
 {'sessions': 1, 'electrodes': {'ECOG': 88}, 'record time (hrs)': 0.6862, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1130M
-{'sessions': 1, 'electrodes': {'ECOG': 80, 'SEEG': 4}, 'record time (hrs)': 0.6229, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 4, 'ECOG': 80}, 'record time (hrs)': 0.6229, 'sample freq (Hz)': 500.0}
 
 PAL2 Subject sub-R1136N
-{'sessions': 1, 'electrodes': {'ECOG': 90, 'SEEG': 12}, 'record time (hrs)': 1.0936, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 12, 'ECOG': 90}, 'record time (hrs)': 1.0936, 'sample freq (Hz)': 1000.0}
 
 PAL2 Subject sub-R1149N
 {'sessions': 1, 'electrodes': {'ECOG': 72}, 'record time (hrs)': 1.7894, 'sample freq (Hz)': 1000.0}
 
 PAL2 Subject sub-R1162N
-{'sessions': 1, 'electrodes': {'ECOG': 46, 'SEEG': 40}, 'record time (hrs)': 1.2239, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 40, 'ECOG': 46}, 'record time (hrs)': 1.2239, 'sample freq (Hz)': 1000.0}
 
 PAL2 Subject sub-R1185N
 {'sessions': 1, 'electrodes': {'ECOG': 124}, 'record time (hrs)': 1.2719, 'sample freq (Hz)': 1000.0}
@@ -84,7 +84,8 @@ PAL2 Subject sub-R1185N
 Subject and session info aggregated over 20 valid subjects for task PAL2
 ------------------------------------------------------------
 Number of sessions: 26, avg 1.30 sessions per subject
-Number of electrodes: {'ECOG': 1520, 'SEEG': 272}, avg {'ECOG': 76.0, 'SEEG': 13.6} per subject (unchanging for each subject)
+Number of electrodes: {'SEEG': 272, 'ECOG': 1520}, avg {'SEEG': 13.6, 'ECOG': 76.0} per subject (unchanging for each subject)
 Recording time: 27.98 hrs, avg 1.40 hrs per subject, 1.08 hrs per session
+Sampling frequencies (Hz): {500.0: 12, 1000.0: 8}
 Invalid subject(s): []
 

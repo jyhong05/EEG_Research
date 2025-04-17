@@ -4,7 +4,7 @@ Info for subject sub-R1001P session 0
 ------------------------------------------------------------
 monopolar channel types + counts: {'ECOG': 66, 'SEEG': 22}
 bipolar channel types + counts: {'ECOG': 54, 'SEEG': 18}
-aggregated electrode counts: {'ECOG': 66, 'SEEG': 22}
+aggregated electrode counts: {'SEEG': 22, 'ECOG': 66}
 number of unique channel groups: 16
 recording time: 1.305 hrs
 sampling frequency: 500.0 Hz
@@ -13,7 +13,7 @@ Info for subject sub-R1001P session 1
 ------------------------------------------------------------
 monopolar channel types + counts: {'ECOG': 66, 'SEEG': 22}
 bipolar channel types + counts: {'ECOG': 54, 'SEEG': 18}
-aggregated electrode counts: {'ECOG': 66, 'SEEG': 22}
+aggregated electrode counts: {'SEEG': 22, 'ECOG': 66}
 number of unique channel groups: 16
 recording time: 0.8528 hrs
 sampling frequency: 500.0 Hz
@@ -21,16 +21,16 @@ sampling frequency: 500.0 Hz
 Session-aggregated info for 273 valid subjects for task FR1
 ------------------------------------------------------------
 FR1 Subject sub-R1001P
-{'sessions': 2, 'electrodes': {'ECOG': 66, 'SEEG': 22}, 'record time (hrs)': 2.1579, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 22, 'ECOG': 66}, 'record time (hrs)': 2.1579, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1002P
-{'sessions': 2, 'electrodes': {'ECOG': 58, 'SEEG': 16}, 'record time (hrs)': 1.8478, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 16, 'ECOG': 58}, 'record time (hrs)': 1.8478, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1003P
-{'sessions': 2, 'electrodes': {'ECOG': 92, 'SEEG': 8}, 'record time (hrs)': 1.6206, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 8, 'ECOG': 92}, 'record time (hrs)': 1.6206, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1006P
-{'sessions': 2, 'electrodes': {'ECOG': 99, 'SEEG': 24}, 'record time (hrs)': 1.5759, 'sample freq (Hz)': [499.7071, 500.0]}
+{'sessions': 2, 'electrodes': {'SEEG': 24, 'ECOG': 99}, 'record time (hrs)': 1.5759, 'sample freq (Hz)': [499.7071, 500.0]}
 
 FR1 Subject sub-R1010J
 {'sessions': 2, 'electrodes': {'SEEG': 186}, 'record time (hrs)': 1.6783, 'sample freq (Hz)': 1000.0}
@@ -42,7 +42,7 @@ FR1 Subject sub-R1018P
 {'sessions': 1, 'electrodes': {'ECOG': 100}, 'record time (hrs)': 0.9729, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1020J
-{'sessions': 1, 'electrodes': {'ECOG': 84, 'SEEG': 16}, 'record time (hrs)': 0.9311, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 84}, 'record time (hrs)': 0.9311, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1022J
 {'sessions': 1, 'electrodes': {'SEEG': 104}, 'record time (hrs)': 0.8197, 'sample freq (Hz)': 1000.0}
@@ -51,7 +51,7 @@ FR1 Subject sub-R1023J
 {'sessions': 1, 'electrodes': {'SEEG': 138}, 'record time (hrs)': 0.8969, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1026D
-{'sessions': 1, 'electrodes': {'ECOG': 52, 'SEEG': 12}, 'record time (hrs)': 0.85, 'sample freq (Hz)': 1600.0}
+{'sessions': 1, 'electrodes': {'SEEG': 12, 'ECOG': 52}, 'record time (hrs)': 0.85, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1027J
 {'sessions': 1, 'electrodes': {'SEEG': 156}, 'record time (hrs)': 0.9914, 'sample freq (Hz)': 1000.0}
@@ -63,31 +63,31 @@ FR1 Subject sub-R1031M
 {'sessions': 1, 'electrodes': {'SEEG': 16}, 'record time (hrs)': 0.735, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1032D
-{'sessions': 1, 'electrodes': {'ECOG': 32, 'SEEG': 72}, 'record time (hrs)': 0.7431, 'sample freq (Hz)': 1600.0}
+{'sessions': 1, 'electrodes': {'SEEG': 72, 'ECOG': 32}, 'record time (hrs)': 0.7431, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1033D
-{'sessions': 1, 'electrodes': {'ECOG': 40, 'SEEG': 36}, 'record time (hrs)': 0.3333, 'sample freq (Hz)': 1600.0}
+{'sessions': 1, 'electrodes': {'SEEG': 36, 'ECOG': 40}, 'record time (hrs)': 0.3333, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1034D
-{'sessions': 3, 'electrodes': {'ECOG': 100, 'SEEG': 12}, 'record time (hrs)': 1.5833, 'sample freq (Hz)': 1600.0}
+{'sessions': 3, 'electrodes': {'SEEG': 12, 'ECOG': 100}, 'record time (hrs)': 1.5833, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1035M
 {'sessions': 1, 'electrodes': {'SEEG': 97}, 'record time (hrs)': 0.4329, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1036M
-{'sessions': 1, 'electrodes': {'ECOG': 80, 'SEEG': 8}, 'record time (hrs)': 0.949, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 8, 'ECOG': 80}, 'record time (hrs)': 0.949, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1039M
-{'sessions': 1, 'electrodes': {'ECOG': 100, 'SEEG': 16}, 'record time (hrs)': 0.7933, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 100}, 'record time (hrs)': 0.7933, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1042M
-{'sessions': 1, 'electrodes': {'ECOG': 72, 'SEEG': 8}, 'record time (hrs)': 1.2556, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 8, 'ECOG': 72}, 'record time (hrs)': 1.2556, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1044J
 {'sessions': 1, 'electrodes': {'SEEG': 186}, 'record time (hrs)': 0.4981, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1045E
-{'sessions': 1, 'electrodes': {'ECOG': 47, 'SEEG': 80}, 'record time (hrs)': 0.8109, 'sample freq (Hz)': 999.0}
+{'sessions': 1, 'electrodes': {'SEEG': 80, 'ECOG': 47}, 'record time (hrs)': 0.8109, 'sample freq (Hz)': 999.0}
 
 FR1 Subject sub-R1048E
 {'sessions': 1, 'electrodes': {'SEEG': 60}, 'record time (hrs)': 1.0168, 'sample freq (Hz)': 500.0}
@@ -99,13 +99,13 @@ FR1 Subject sub-R1050M
 {'sessions': 1, 'electrodes': {'ECOG': 64}, 'record time (hrs)': 0.874, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1051J
-{'sessions': 3, 'electrodes': {'ECOG': 48, 'SEEG': 8}, 'record time (hrs)': 3.7322, 'sample freq (Hz)': 2000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 8, 'ECOG': 48}, 'record time (hrs)': 3.7322, 'sample freq (Hz)': 2000.0}
 
 FR1 Subject sub-R1052E
-{'sessions': 2, 'electrodes': {'ECOG': 30, 'SEEG': 98}, 'record time (hrs)': 1.8407, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 98, 'ECOG': 30}, 'record time (hrs)': 1.8407, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1053M
-{'sessions': 1, 'electrodes': {'ECOG': 64, 'SEEG': 16}, 'record time (hrs)': 0.5374, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 64}, 'record time (hrs)': 0.5374, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1054J
 {'sessions': 2, 'electrodes': {'SEEG': 165}, 'record time (hrs)': 1.8558, 'sample freq (Hz)': 1000.0}
@@ -117,10 +117,10 @@ FR1 Subject sub-R1057E
 {'sessions': 1, 'electrodes': {'SEEG': 125}, 'record time (hrs)': 1.1211, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1059J
-{'sessions': 2, 'electrodes': {'ECOG': 136, 'SEEG': 41}, 'record time (hrs)': 1.5911, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 41, 'ECOG': 136}, 'record time (hrs)': 1.5911, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1060M
-{'sessions': 4, 'electrodes': {'ECOG': 64, 'SEEG': 4}, 'record time (hrs)': 3.0181, 'sample freq (Hz)': 500.0}
+{'sessions': 4, 'electrodes': {'SEEG': 4, 'ECOG': 64}, 'record time (hrs)': 3.0181, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1061T
 {'sessions': 4, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 3.1193, 'sample freq (Hz)': 1000.0}
@@ -135,16 +135,16 @@ FR1 Subject sub-R1065J
 {'sessions': 6, 'electrodes': {'SEEG': 188}, 'record time (hrs)': 4.7144, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1066P
-{'sessions': 4, 'electrodes': {'ECOG': 40, 'SEEG': 20}, 'record time (hrs)': 3.7985, 'sample freq (Hz)': 500.0}
+{'sessions': 4, 'electrodes': {'SEEG': 20, 'ECOG': 40}, 'record time (hrs)': 3.7985, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1067P
-{'sessions': 3, 'electrodes': {'ECOG': 100, 'SEEG': 16}, 'record time (hrs)': 2.6008, 'sample freq (Hz)': 500.0}
+{'sessions': 3, 'electrodes': {'SEEG': 16, 'ECOG': 100}, 'record time (hrs)': 2.6008, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1068J
-{'sessions': 3, 'electrodes': {'ECOG': 62, 'SEEG': 24}, 'record time (hrs)': 3.6564, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 24, 'ECOG': 62}, 'record time (hrs)': 3.6564, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1069M
-{'sessions': 1, 'electrodes': {'ECOG': 88, 'SEEG': 4}, 'record time (hrs)': 0.8735, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 4, 'ECOG': 88}, 'record time (hrs)': 0.8735, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1070T
 {'sessions': 3, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 2.7556, 'sample freq (Hz)': 1000.0}
@@ -162,28 +162,28 @@ FR1 Subject sub-R1077T
 {'sessions': 4, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 3.9197, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1080E
-{'sessions': 2, 'electrodes': {'ECOG': 20, 'SEEG': 107}, 'record time (hrs)': 1.2911, 'sample freq (Hz)': 999.0}
+{'sessions': 2, 'electrodes': {'SEEG': 107, 'ECOG': 20}, 'record time (hrs)': 1.2911, 'sample freq (Hz)': 999.0}
 
 FR1 Subject sub-R1081J
-{'sessions': 2, 'electrodes': {'ECOG': 102, 'SEEG': 8}, 'record time (hrs)': 1.0967, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 8, 'ECOG': 102}, 'record time (hrs)': 1.0967, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1083J
-{'sessions': 5, 'electrodes': {'ECOG': 28, 'SEEG': 58}, 'record time (hrs)': 6.6219, 'sample freq (Hz)': 1000.0}
+{'sessions': 5, 'electrodes': {'SEEG': 58, 'ECOG': 28}, 'record time (hrs)': 6.6219, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1084T
-{'sessions': 1, 'electrodes': {'ECOG': 86, 'SEEG': 20}, 'record time (hrs)': 0.9003, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 20, 'ECOG': 86}, 'record time (hrs)': 0.9003, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1086M
-{'sessions': 1, 'electrodes': {'ECOG': 76, 'SEEG': 12}, 'record time (hrs)': 0.545, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 12, 'ECOG': 76}, 'record time (hrs)': 0.545, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1089P
-{'sessions': 1, 'electrodes': {'ECOG': 102, 'SEEG': 16}, 'record time (hrs)': 1.0178, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 102}, 'record time (hrs)': 1.0178, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1092J
 {'sessions': 4, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 3.0338, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1093J
-{'sessions': 1, 'electrodes': {'ECOG': 80, 'SEEG': 32}, 'record time (hrs)': 0.983, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 32, 'ECOG': 80}, 'record time (hrs)': 0.983, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1094T
 {'sessions': 3, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 2.7436, 'sample freq (Hz)': 1000.0}
@@ -195,16 +195,16 @@ FR1 Subject sub-R1098D
 {'sessions': 3, 'electrodes': {'ECOG': 74}, 'record time (hrs)': 2.95, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1100D
-{'sessions': 3, 'electrodes': {'ECOG': 76, 'SEEG': 24}, 'record time (hrs)': 1.5167, 'sample freq (Hz)': 1600.0}
+{'sessions': 3, 'electrodes': {'SEEG': 24, 'ECOG': 76}, 'record time (hrs)': 1.5167, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1101T
 {'sessions': 1, 'electrodes': {'SEEG': 124}, 'record time (hrs)': 0.7739, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1102P
-{'sessions': 1, 'electrodes': {'ECOG': 52, 'SEEG': 16}, 'record time (hrs)': 1.1756, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 52}, 'record time (hrs)': 1.1756, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1104D
-{'sessions': 1, 'electrodes': {'ECOG': 92, 'SEEG': 12}, 'record time (hrs)': 0.7667, 'sample freq (Hz)': 1600.0}
+{'sessions': 1, 'electrodes': {'SEEG': 12, 'ECOG': 92}, 'record time (hrs)': 0.7667, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1105E
 {'sessions': 1, 'electrodes': {'SEEG': 113}, 'record time (hrs)': 0.9371, 'sample freq (Hz)': 999.0}
@@ -216,10 +216,10 @@ FR1 Subject sub-R1108J
 {'sessions': 4, 'electrodes': {'SEEG': 118}, 'record time (hrs)': 3.5894, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1111M
-{'sessions': 4, 'electrodes': {'ECOG': 88, 'SEEG': 12}, 'record time (hrs)': 3.092, 'sample freq (Hz)': 500.0}
+{'sessions': 4, 'electrodes': {'SEEG': 12, 'ECOG': 88}, 'record time (hrs)': 3.092, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1112M
-{'sessions': 3, 'electrodes': {'ECOG': 48, 'SEEG': 20}, 'record time (hrs)': 2.327, 'sample freq (Hz)': 500.0}
+{'sessions': 3, 'electrodes': {'SEEG': 20, 'ECOG': 48}, 'record time (hrs)': 2.327, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1113T
 {'sessions': 3, 'electrodes': {'SEEG': 127}, 'record time (hrs)': 1.8264, 'sample freq (Hz)': 1000.0}
@@ -231,10 +231,10 @@ FR1 Subject sub-R1115T
 {'sessions': 1, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 1.2728, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1118N
-{'sessions': 2, 'electrodes': {'ECOG': 106, 'SEEG': 16}, 'record time (hrs)': 2.2483, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 16, 'ECOG': 106}, 'record time (hrs)': 2.2483, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1120E
-{'sessions': 2, 'electrodes': {'ECOG': 38, 'SEEG': 90}, 'record time (hrs)': 1.4965, 'sample freq (Hz)': 999.0}
+{'sessions': 2, 'electrodes': {'SEEG': 90, 'ECOG': 38}, 'record time (hrs)': 1.4965, 'sample freq (Hz)': 999.0}
 
 FR1 Subject sub-R1121M
 {'sessions': 8, 'electrodes': {'ECOG': 88}, 'record time (hrs)': 3.3161, 'sample freq (Hz)': [499.7071, 500.0]}
@@ -252,16 +252,16 @@ FR1 Subject sub-R1125T
 {'sessions': 3, 'electrodes': {'SEEG': 60}, 'record time (hrs)': 1.6742, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1127P
-{'sessions': 1, 'electrodes': {'ECOG': 32, 'SEEG': 16}, 'record time (hrs)': 0.8867, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 32}, 'record time (hrs)': 0.8867, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1128E
-{'sessions': 1, 'electrodes': {'ECOG': 24, 'SEEG': 103}, 'record time (hrs)': 0.8248, 'sample freq (Hz)': 999.0}
+{'sessions': 1, 'electrodes': {'SEEG': 103, 'ECOG': 24}, 'record time (hrs)': 0.8248, 'sample freq (Hz)': 999.0}
 
 FR1 Subject sub-R1129D
 {'sessions': 2, 'electrodes': {'ECOG': 80}, 'record time (hrs)': 0.8, 'sample freq (Hz)': 1600.0}
 
 FR1 Subject sub-R1130M
-{'sessions': 2, 'electrodes': {'ECOG': 80, 'SEEG': 4}, 'record time (hrs)': 1.6029, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 4, 'ECOG': 80}, 'record time (hrs)': 1.6029, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1131M
 {'sessions': 1, 'electrodes': {'SEEG': 122}, 'record time (hrs)': 0.9361, 'sample freq (Hz)': 500.0}
@@ -270,10 +270,10 @@ FR1 Subject sub-R1134T
 {'sessions': 3, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 2.6036, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1135E
-{'sessions': 4, 'electrodes': {'ECOG': 35, 'SEEG': 91}, 'record time (hrs)': 3.2417, 'sample freq (Hz)': 999.0}
+{'sessions': 4, 'electrodes': {'SEEG': 91, 'ECOG': 35}, 'record time (hrs)': 3.2417, 'sample freq (Hz)': 999.0}
 
 FR1 Subject sub-R1136N
-{'sessions': 2, 'electrodes': {'ECOG': 90, 'SEEG': 12}, 'record time (hrs)': 1.9756, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 12, 'ECOG': 90}, 'record time (hrs)': 1.9756, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1137E
 {'sessions': 3, 'electrodes': {'SEEG': 80}, 'record time (hrs)': 2.3279, 'sample freq (Hz)': 500.0}
@@ -282,7 +282,7 @@ FR1 Subject sub-R1138T
 {'sessions': 1, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.6756, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1142N
-{'sessions': 1, 'electrodes': {'ECOG': 87, 'SEEG': 8}, 'record time (hrs)': 1.1778, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 8, 'ECOG': 87}, 'record time (hrs)': 1.1778, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1145J
 {'sessions': 4, 'electrodes': {'SEEG': 118}, 'record time (hrs)': 3.5719, 'sample freq (Hz)': 1000.0}
@@ -291,7 +291,7 @@ FR1 Subject sub-R1146E
 {'sessions': 3, 'electrodes': {'SEEG': 56}, 'record time (hrs)': 3.0936, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1147P
-{'sessions': 3, 'electrodes': {'ECOG': 108, 'SEEG': 8}, 'record time (hrs)': 1.73, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 8, 'ECOG': 108}, 'record time (hrs)': 1.73, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1148P
 {'sessions': 1, 'electrodes': {'SEEG': 50}, 'record time (hrs)': 1.0951, 'sample freq (Hz)': 1000.0}
@@ -303,13 +303,13 @@ FR1 Subject sub-R1150J
 {'sessions': 1, 'electrodes': {'SEEG': 110}, 'record time (hrs)': 0.8041, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1151E
-{'sessions': 3, 'electrodes': {'ECOG': 20, 'SEEG': 108}, 'record time (hrs)': 2.6054, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 108, 'ECOG': 20}, 'record time (hrs)': 2.6054, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1153T
 {'sessions': 3, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 3.0486, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1154D
-{'sessions': 3, 'electrodes': {'ECOG': 64, 'SEEG': 12}, 'record time (hrs)': 2.4897, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 12, 'ECOG': 64}, 'record time (hrs)': 2.4897, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1155D
 {'sessions': 1, 'electrodes': {'ECOG': 84}, 'record time (hrs)': 0.3667, 'sample freq (Hz)': 1600.0}
@@ -321,22 +321,22 @@ FR1 Subject sub-R1158T
 {'sessions': 3, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.4562, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1159P
-{'sessions': 1, 'electrodes': {'ECOG': 109, 'SEEG': 16}, 'record time (hrs)': 0.5178, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 109}, 'record time (hrs)': 0.5178, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1161E
 {'sessions': 3, 'electrodes': {'SEEG': 70}, 'record time (hrs)': 2.6706, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1162N
-{'sessions': 1, 'electrodes': {'ECOG': 46, 'SEEG': 40}, 'record time (hrs)': 0.8417, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 40, 'ECOG': 46}, 'record time (hrs)': 0.8417, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1163T
 {'sessions': 2, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.8258, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1166D
-{'sessions': 3, 'electrodes': {'ECOG': 48, 'SEEG': 12}, 'record time (hrs)': 2.606, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 12, 'ECOG': 48}, 'record time (hrs)': 2.606, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1167M
-{'sessions': 2, 'electrodes': {'ECOG': 68, 'SEEG': 8}, 'record time (hrs)': 1.096, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 8, 'ECOG': 68}, 'record time (hrs)': 1.096, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1168T
 {'sessions': 3, 'electrodes': {'SEEG': 122}, 'record time (hrs)': 2.5087, 'sample freq (Hz)': 1000.0}
@@ -351,7 +351,7 @@ FR1 Subject sub-R1171M
 {'sessions': 2, 'electrodes': {'SEEG': 116}, 'record time (hrs)': 1.4611, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1172E
-{'sessions': 2, 'electrodes': {'ECOG': 24, 'SEEG': 80}, 'record time (hrs)': 2.1568, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 80, 'ECOG': 24}, 'record time (hrs)': 2.1568, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1173J
 {'sessions': 2, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 1.8441, 'sample freq (Hz)': 1000.0}
@@ -366,22 +366,22 @@ FR1 Subject sub-R1176M
 {'sessions': 1, 'electrodes': {'SEEG': 70}, 'record time (hrs)': 1.0878, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1177M
-{'sessions': 2, 'electrodes': {'ECOG': 80, 'SEEG': 16}, 'record time (hrs)': 1.4946, 'sample freq (Hz)': 500.0}
+{'sessions': 2, 'electrodes': {'SEEG': 16, 'ECOG': 80}, 'record time (hrs)': 1.4946, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1178P
 {'sessions': 2, 'electrodes': {'SEEG': 50}, 'record time (hrs)': 1.2645, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1184M
-{'sessions': 1, 'electrodes': {'ECOG': 48, 'SEEG': 8}, 'record time (hrs)': 0.7879, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 8, 'ECOG': 48}, 'record time (hrs)': 0.7879, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1185N
 {'sessions': 1, 'electrodes': {'ECOG': 124}, 'record time (hrs)': 0.5531, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1186P
-{'sessions': 1, 'electrodes': {'ECOG': 110, 'SEEG': 16}, 'record time (hrs)': 0.3779, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 110}, 'record time (hrs)': 0.3779, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1187P
-{'sessions': 2, 'electrodes': {'ECOG': 104, 'SEEG': 8}, 'record time (hrs)': 1.0867, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 8, 'ECOG': 104}, 'record time (hrs)': 1.0867, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1189M
 {'sessions': 3, 'electrodes': {'SEEG': 116}, 'record time (hrs)': 2.8729, 'sample freq (Hz)': 1000.0}
@@ -390,10 +390,10 @@ FR1 Subject sub-R1193T
 {'sessions': 3, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.7139, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1195E
-{'sessions': 3, 'electrodes': {'ECOG': 44, 'SEEG': 83}, 'record time (hrs)': 2.5324, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 83, 'ECOG': 44}, 'record time (hrs)': 2.5324, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1196N
-{'sessions': 2, 'electrodes': {'ECOG': 70, 'SEEG': 32}, 'record time (hrs)': 2.2155, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 32, 'ECOG': 70}, 'record time (hrs)': 2.2155, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1198M
 {'sessions': 1, 'electrodes': {'SEEG': 94}, 'record time (hrs)': 0.845, 'sample freq (Hz)': 500.0}
@@ -402,7 +402,7 @@ FR1 Subject sub-R1200T
 {'sessions': 2, 'electrodes': {'SEEG': 124}, 'record time (hrs)': 1.6866, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1201P
-{'sessions': 2, 'electrodes': {'ECOG': 85, 'SEEG': 40}, 'record time (hrs)': 1.7448, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 40, 'ECOG': 85}, 'record time (hrs)': 1.7448, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1202M
 {'sessions': 2, 'electrodes': {'ECOG': 64}, 'record time (hrs)': 1.6903, 'sample freq (Hz)': 1000.0}
@@ -414,31 +414,31 @@ FR1 Subject sub-R1204T
 {'sessions': 2, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.5665, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1212P
-{'sessions': 2, 'electrodes': {'ECOG': 74, 'SEEG': 52}, 'record time (hrs)': 1.3984, 'sample freq (Hz)': 1024.0}
+{'sessions': 2, 'electrodes': {'SEEG': 52, 'ECOG': 74}, 'record time (hrs)': 1.3984, 'sample freq (Hz)': 1024.0}
 
 FR1 Subject sub-R1214M
 {'sessions': 1, 'electrodes': {'SEEG': 108}, 'record time (hrs)': 0.8905, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1215M
-{'sessions': 2, 'electrodes': {'ECOG': 48, 'SEEG': 16}, 'record time (hrs)': 2.5395, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 16, 'ECOG': 48}, 'record time (hrs)': 2.5395, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1216E
-{'sessions': 2, 'electrodes': {'ECOG': 15, 'SEEG': 55}, 'record time (hrs)': 1.6803, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 55, 'ECOG': 15}, 'record time (hrs)': 1.6803, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1217T
 {'sessions': 3, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 2.5281, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1221P
-{'sessions': 1, 'electrodes': {'ECOG': 100, 'SEEG': 16}, 'record time (hrs)': 0.8887, 'sample freq (Hz)': 512.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 100}, 'record time (hrs)': 0.8887, 'sample freq (Hz)': 512.0}
 
 FR1 Subject sub-R1222M
 {'sessions': 3, 'electrodes': {'ECOG': 92}, 'record time (hrs)': 1.9641, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1223E
-{'sessions': 3, 'electrodes': {'ECOG': 28, 'SEEG': 100}, 'record time (hrs)': 3.0493, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 100, 'ECOG': 28}, 'record time (hrs)': 3.0493, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1226D
-{'sessions': 2, 'electrodes': {'ECOG': 74, 'SEEG': 16}, 'record time (hrs)': 1.6601, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 16, 'ECOG': 74}, 'record time (hrs)': 1.6601, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1228M
 {'sessions': 2, 'electrodes': {'SEEG': 114}, 'record time (hrs)': 1.6035, 'sample freq (Hz)': 1000.0}
@@ -450,7 +450,7 @@ FR1 Subject sub-R1231M
 {'sessions': 1, 'electrodes': {'SEEG': 98}, 'record time (hrs)': 1.0829, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1232N
-{'sessions': 1, 'electrodes': {'ECOG': 80, 'SEEG': 24}, 'record time (hrs)': 0.8619, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 24, 'ECOG': 80}, 'record time (hrs)': 0.8619, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1234D
 {'sessions': 2, 'electrodes': {'ECOG': 80}, 'record time (hrs)': 1.7371, 'sample freq (Hz)': 1000.0}
@@ -468,10 +468,10 @@ FR1 Subject sub-R1250N
 {'sessions': 1, 'electrodes': {'ECOG': 121}, 'record time (hrs)': 1.2038, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1251M
-{'sessions': 1, 'electrodes': {'ECOG': 52, 'SEEG': 16}, 'record time (hrs)': 0.7737, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 16, 'ECOG': 52}, 'record time (hrs)': 0.7737, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1260D
-{'sessions': 1, 'electrodes': {'ECOG': 96, 'SEEG': 32}, 'record time (hrs)': 1.0913, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 32, 'ECOG': 96}, 'record time (hrs)': 1.0913, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1264P
 {'sessions': 1, 'electrodes': {'SEEG': 78}, 'record time (hrs)': 0.9952, 'sample freq (Hz)': 1000.0}
@@ -501,7 +501,7 @@ FR1 Subject sub-R1290M
 {'sessions': 2, 'electrodes': {'SEEG': 90}, 'record time (hrs)': 1.5829, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1291M
-{'sessions': 1, 'electrodes': {'ECOG': 76, 'SEEG': 12}, 'record time (hrs)': 1.1839, 'sample freq (Hz)': 500.0}
+{'sessions': 1, 'electrodes': {'SEEG': 12, 'ECOG': 76}, 'record time (hrs)': 1.1839, 'sample freq (Hz)': 500.0}
 
 FR1 Subject sub-R1292E
 {'sessions': 4, 'electrodes': {'SEEG': 86}, 'record time (hrs)': 4.4182, 'sample freq (Hz)': 1000.0}
@@ -519,10 +519,10 @@ FR1 Subject sub-R1299T
 {'sessions': 8, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 6.895, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1302M
-{'sessions': 2, 'electrodes': {'ECOG': 80, 'SEEG': 8}, 'record time (hrs)': 1.4811, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 8, 'ECOG': 80}, 'record time (hrs)': 1.4811, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1304N
-{'sessions': 3, 'electrodes': {'ECOG': 52, 'SEEG': 48}, 'record time (hrs)': 2.3835, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 48, 'ECOG': 52}, 'record time (hrs)': 2.3835, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1306E
 {'sessions': 1, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 0.7622, 'sample freq (Hz)': 1000.0}
@@ -531,7 +531,7 @@ FR1 Subject sub-R1308T
 {'sessions': 4, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 3.3093, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1309M
-{'sessions': 3, 'electrodes': {'ECOG': 92, 'SEEG': 12}, 'record time (hrs)': 1.6023, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 12, 'ECOG': 92}, 'record time (hrs)': 1.6023, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1310J
 {'sessions': 2, 'electrodes': {'SEEG': 120}, 'record time (hrs)': 1.7776, 'sample freq (Hz)': 1000.0}
@@ -546,10 +546,10 @@ FR1 Subject sub-R1315T
 {'sessions': 4, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 3.2188, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1316T
-{'sessions': 3, 'electrodes': {'ECOG': 6, 'SEEG': 156}, 'record time (hrs)': 1.6478, 'sample freq (Hz)': 1000.0}
+{'sessions': 3, 'electrodes': {'SEEG': 156, 'ECOG': 6}, 'record time (hrs)': 1.6478, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1317D
-{'sessions': 2, 'electrodes': {'ECOG': 68, 'SEEG': 8}, 'record time (hrs)': 2.0898, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 8, 'ECOG': 68}, 'record time (hrs)': 2.0898, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1318N
 {'sessions': 1, 'electrodes': {'ECOG': 112}, 'record time (hrs)': 0.8424, 'sample freq (Hz)': 1000.0}
@@ -597,7 +597,7 @@ FR1 Subject sub-R1338T
 {'sessions': 3, 'electrodes': {'SEEG': 168}, 'record time (hrs)': 5.1635, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1339D
-{'sessions': 4, 'electrodes': {'ECOG': 6, 'SEEG': 166}, 'record time (hrs)': 3.4694, 'sample freq (Hz)': 1000.0}
+{'sessions': 4, 'electrodes': {'SEEG': 166, 'ECOG': 6}, 'record time (hrs)': 3.4694, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1341T
 {'sessions': 4, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 3.0849, 'sample freq (Hz)': 1000.0}
@@ -606,7 +606,7 @@ FR1 Subject sub-R1342M
 {'sessions': 2, 'electrodes': {'SEEG': 184}, 'record time (hrs)': 1.3831, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1345D
-{'sessions': 5, 'electrodes': {'ECOG': 88, 'SEEG': 20}, 'record time (hrs)': 3.4968, 'sample freq (Hz)': 1000.0}
+{'sessions': 5, 'electrodes': {'SEEG': 20, 'ECOG': 88}, 'record time (hrs)': 3.4968, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1346T
 {'sessions': 2, 'electrodes': {'SEEG': 158}, 'record time (hrs)': 1.8731, 'sample freq (Hz)': 1000.0}
@@ -618,10 +618,10 @@ FR1 Subject sub-R1349T
 {'sessions': 1, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.1249, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1350D
-{'sessions': 4, 'electrodes': {'ECOG': 12, 'SEEG': 120}, 'record time (hrs)': 3.9774, 'sample freq (Hz)': 1000.0}
+{'sessions': 4, 'electrodes': {'SEEG': 120, 'ECOG': 12}, 'record time (hrs)': 3.9774, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1351M
-{'sessions': 1, 'electrodes': {'ECOG': 72, 'SEEG': 4}, 'record time (hrs)': 1.0658, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 4, 'ECOG': 72}, 'record time (hrs)': 1.0658, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1354E
 {'sessions': 2, 'electrodes': {'SEEG': 143}, 'record time (hrs)': 1.6788, 'sample freq (Hz)': 1000.0}
@@ -654,7 +654,7 @@ FR1 Subject sub-R1375C
 {'sessions': 1, 'electrodes': {'SEEG': 128}, 'record time (hrs)': 0.4383, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1376D
-{'sessions': 1, 'electrodes': {'ECOG': 8, 'SEEG': 160}, 'record time (hrs)': 0.7211, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 160, 'ECOG': 8}, 'record time (hrs)': 0.7211, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1377M
 {'sessions': 4, 'electrodes': {'SEEG': 128}, 'record time (hrs)': 1.9049, 'sample freq (Hz)': 1000.0}
@@ -690,7 +690,7 @@ FR1 Subject sub-R1387E
 {'sessions': 3, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 1.3116, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1390M
-{'sessions': 1, 'electrodes': {'ECOG': 72, 'SEEG': 20}, 'record time (hrs)': 0.5492, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 20, 'ECOG': 72}, 'record time (hrs)': 0.5492, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1391T
 {'sessions': 3, 'electrodes': {'SEEG': 125}, 'record time (hrs)': 1.1845, 'sample freq (Hz)': 1000.0}
@@ -708,13 +708,13 @@ FR1 Subject sub-R1396T
 {'sessions': 2, 'electrodes': {'SEEG': 126}, 'record time (hrs)': 0.7777, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1397D
-{'sessions': 2, 'electrodes': {'ECOG': 48, 'SEEG': 132}, 'record time (hrs)': 1.4149, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 132, 'ECOG': 48}, 'record time (hrs)': 1.4149, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1398J
 {'sessions': 2, 'electrodes': {'SEEG': 224}, 'record time (hrs)': 0.7655, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1401J
-{'sessions': 1, 'electrodes': {'ECOG': 12, 'SEEG': 102}, 'record time (hrs)': 0.4913, 'sample freq (Hz)': 1000.0}
+{'sessions': 1, 'electrodes': {'SEEG': 102, 'ECOG': 12}, 'record time (hrs)': 0.4913, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1402E
 {'sessions': 1, 'electrodes': {'SEEG': 182}, 'record time (hrs)': 0.4845, 'sample freq (Hz)': 1000.0}
@@ -744,7 +744,7 @@ FR1 Subject sub-R1415T
 {'sessions': 2, 'electrodes': {'SEEG': 198}, 'record time (hrs)': 1.5026, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1416T
-{'sessions': 2, 'electrodes': {'ECOG': 42, 'SEEG': 20}, 'record time (hrs)': 0.9057, 'sample freq (Hz)': 1000.0}
+{'sessions': 2, 'electrodes': {'SEEG': 20, 'ECOG': 42}, 'record time (hrs)': 0.9057, 'sample freq (Hz)': 1000.0}
 
 FR1 Subject sub-R1420T
 {'sessions': 2, 'electrodes': {'SEEG': 204}, 'record time (hrs)': 0.8715, 'sample freq (Hz)': 1000.0}
@@ -843,7 +843,8 @@ FR1 Subject sub-R1573T
 Subject and session info aggregated over 273 valid subjects for task FR1
 ------------------------------------------------------------
 Number of sessions: 552, avg 2.02 sessions per subject
-Number of electrodes: {'ECOG': 6989, 'SEEG': 26035}, avg {'ECOG': 25.6007, 'SEEG': 95.3663} per subject (unchanging for each subject)
+Number of electrodes: {'SEEG': 26035, 'ECOG': 6989}, avg {'SEEG': 95.3663, 'ECOG': 25.6007} per subject (unchanging for each subject)
 Recording time: 425.33 hrs, avg 1.56 hrs per subject, 0.77 hrs per session
-Invalid subject(s): ['sub-R1230J', 'sub-R1236J', 'sub-R1191J', 'sub-R1241J', 'sub-R1277J', 'sub-R1368T', 'sub-R1207J']
+Sampling frequencies (Hz): {500.0: 39, 499.7071: 2, 1000.0: 214, 1600.0: 9, 999.0: 8, 2000.0: 1, 1024.0: 1, 512.0: 1}
+Invalid subject(s): ['sub-R1191J', 'sub-R1368T', 'sub-R1277J', 'sub-R1207J', 'sub-R1236J', 'sub-R1230J', 'sub-R1241J']
 
